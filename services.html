@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAVELA — Nos Services</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+<nav>
+  <a class="nav-logo" href="index.html">
+    <div class="logo-circle-mini">
+      <svg width="24" height="20" viewBox="0 0 32 22" fill="none">
+        <path d="M2 14 Q16 0 30 14" stroke="white" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
+        <path d="M7 17 Q16 7 25 17" stroke="white" stroke-width="2.5" stroke-linecap="round" opacity="0.75"/>
+        <path d="M11.5 20 Q16 13 20.5 20" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+        <circle cx="16" cy="21.5" r="2" fill="white"/>
+      </svg>
+    </div>
+    <span class="logo-text-nav">SA<span>VELA</span></span>
+  </a>
+
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Accueil</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="apropos.html">À propos</a></li>
+    <li><a href="contact.html" class="mobile-cta">Prendre RDV</a></li>
+  </ul>
+
+  <a href="contact.html" class="nav-cta desktop-only">Prendre RDV</a>
+
+  <button class="burger" id="burgerBtn" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+  <!-- HERO SERVICES -->
+  <section id="services-hero">
+    <div class="blob1"></div>
+    <div class="blob2"></div>
+    <div class="services-hero-content">
+      <span class="section-tag">Ce que nous faisons</span>
+      <h1 class="hero-title">Nos <span class="gradient">Services</span></h1>
+      <p class="hero-sub">Des solutions digitales complètes et sur mesure pour propulser votre entreprise vers le haut.</p>
+    </div>
+  </section>
+
+  <!-- SERVICE 1 : CRÉATION DE SITES WEB -->
+  <section class="service-section" id="service-web">
+    <div class="service-section-inner">
+      <div class="service-section-header">
+        <div class="service-section-icon">
+          <svg width="40" height="40" fill="none" viewBox="0 0 24 24" stroke="#FF3D6B" stroke-width="1.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0H3"/>
+          </svg>
+        </div>
+        <div>
+          <h2 class="service-section-title">Création de sites web</h2>
+          <p class="service-section-desc">Des sites dynamiques sur mesure avec bases de données, panneaux d'administration et interfaces modernes et performantes.</p>
+        </div>
+      </div>
+      <div class="forfaits-grid">
+        <div class="forfait-card">
+          <div class="forfait-label">Starter</div>
+          <ul class="forfait-list">
+            <li>✓ Site vitrine 3-5 pages</li>
+            <li>✓ Design responsive</li>
+            <li>✓ Formulaire de contact</li>
+            <li>✓ Optimisation de base</li>
+          </ul>
+          <a href="contact.html" class="btn-forfait">Demander un devis</a>
+        </div>
+        <div class="forfait-card forfait-popular">
+          <div class="forfait-badge">Populaire</div>
+          <div class="forfait-label">Standard</div>
+          <ul class="forfait-list">
+            <li>✓ Tout du Starter</li>
+            <li>✓ Base de données</li>
+            <li>✓ Panneau d'administration</li>
+            <li>✓ Système de réservation</li>
+            <li>✓ SEO de base inclus</li>
+          </ul>
+          <a href="contact.html" class="btn-forfait">Demander un devis</a>
+        </div>
+        <div class="forfait-card">
+          <div class="forfait-label">Premium</div>
+          <ul class="forfait-list">
+            <li>✓ Tout du Standard</li>
+            <li>✓ E-commerce intégré</li>
+            <li>✓ Application web avancée</li>
+            <li>✓ API et intégrations</li>
+            <li>✓ Maintenance 3 mois incluse</li>
+          </ul>
+          <a href="contact.html" class="btn-forfait">Demander un devis</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE 2 : SEO -->
+  <section class="service-section service-section-alt" id="service-seo">
+    <div class="service-section-inner">
+      <div class="service-section-header">
+        <div class="service-section-icon">
+          <svg width="40" height="40" fill="none" viewBox="0 0 24 24" stroke="#FF3D6B" stroke-width="1.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 15.803 7.5 7.5 0 0015.803 15.803z"/>
+          </svg>
+        </div>
+        <div>
+          <h2 class="service-section-title">SEO & Référencement</h2>
+          <p class="service-section-desc">Stratégies de référencement naturel ciblées pour apparaître en première page Google et attirer plus de clients.</p>
+        </div>
+      </div>
+      <div class="forfaits-grid">
+        <div class="forfait-card">
+          <div class="forfait-label">Starter</div>
+          <ul class="forfait-list">
+            <li>✓ Audit SEO complet</li>
+            <li>✓ Optimisation on-page</li>
+            <li>✓ Mots-clés ciblés</li>
+            <li>✓ Rapport mensuel</li>
+          </ul>
+          <a href="contact.html" class="btn-forfait">Demander un devis</a>
+        </div>
+        <div class="forfait-card forfait-popular">
+          <div class="forfait-badge">Populaire</div>
+          <div class="forfait-label">Standard</div>
+          <ul class="forfait-list">
+            <li>✓ Tout du Starter</li>
+            <li>✓ Création de contenu SEO</li>
+            <li>✓ Netlinking</li>
+            <li>✓ Google My Business</li>
+            <li>✓ Suivi positions Google</li>
+          </ul>
+          <a href="contact.html" class="btn-forfait">Demander un devis</a>
+        </div>
+        <div class="forfait-card">
+          <div class="forfait-label">Premium</div>
+          <ul class="forfait-list">
+            <li>✓ Tout du Standard</li>
+            <li>✓ Stratégie de contenu</li>
+            <li>✓ SEO technique avancé</li>
+            <li>✓ Backlinks premium</li>
+            <li>✓ Rapport hebdomadaire</li>
+          </ul>
+          <a href="contact.html" class="btn-forfait">Demander un devis</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE 3 : SOCIAL MEDIA -->
+  <section class="service-section" id="service-social">
+    <div class="service-section-inner">
+      <div class="service-section-header">
+        <div class="service-section-icon">
+          <svg width="40" height="40" fill="none" viewBox="0 0 24 24" stroke="#FF3D6B" stroke-width="1.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 15h3"/>
+          </svg>
+        </div>
+        <div>
+          <h2 class="service-section-title">Social Media Manager</h2>
+          <p class="service-section-desc">Gestion complète de vos réseaux sociaux : contenu, calendrier éditorial, engagement et croissance de communauté.</p>
+        </div>
+      </div>
+      <div class="forfaits-grid">
+        <div class="forfait-card">
+          <div class="forfait-label">Starter</div>
+          <ul class="forfait-list">
+            <li>✓ 2 réseaux sociaux</li>
+            <li>✓ 8 publications/mois</li>
+            <li>✓ Création de visuels</li>
+            <li>✓ Rapport mensuel</li>
+          </ul>
+          <a href="contact.html" class="btn-forfait">Demander un devis</a>
+        </div>
+        <div class="forfait-card forfait-popular">
+          <div class="forfait-badge">Populaire</div>
+          <div class="forfait-label">Standard</div>
+          <ul class="forfait-list">
+            <li>✓ 3 réseaux sociaux</li>
+            <li>✓ 16 publications/mois</li>
+            <li>✓ Stories et Reels</li>
+            <li>✓ Gestion commentaires</li>
+            <li>✓ Stratégie de contenu</li>
+          </ul>
+          <a href="contact.html" class="btn-forfait">Demander un devis</a>
+        </div>
+        <div class="forfait-card">
+          <div class="forfait-label">Premium</div>
+          <ul class="forfait-list">
+            <li>✓ Tous les réseaux</li>
+            <li>✓ Publications illimitées</li>
+            <li>✓ Campagnes sponsorisées</li>
+            <li>✓ Influencer marketing</li>
+            <li>✓ Rapport hebdomadaire</li>
+          </ul>
+          <a href="contact.html" class="btn-forfait">Demander un devis</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE 4 : BRANDING -->
+  <section class="service-section service-section-alt" id="service-branding">
+    <div class="service-section-inner">
+      <div class="service-section-header">
+        <div class="service-section-icon">
+          <svg width="40" height="40" fill="none" viewBox="0 0 24 24" stroke="#FF3D6B" stroke-width="1.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245 4.5 4.5 0 008.4-2.245c0-.399-.078-.78-.22-1.128zm0 0a15.998 15.998 0 003.388-1.62m-5.043-.025a15.994 15.994 0 011.622-3.395m3.42 3.42a15.995 15.995 0 004.764-4.648l3.876-5.814a1.151 1.151 0 00-1.597-1.597L14.146 6.32a15.996 15.996 0 00-4.649 4.763m3.42 3.42a6.776 6.776 0 00-3.42-3.42"/>
+          </svg>
+        </div>
+        <div>
+          <h2 class="service-section-title">Branding & Identité</h2>
+          <p class="service-section-desc">Logo, charte graphique et identité visuelle complète et mémorable qui reflète l'âme de votre entreprise.</p>
+        </div>
+      </div>
+      <div class="forfaits-grid">
+        <div class="forfait-card">
+          <div class="forfait-label">Starter</div>
+          <ul class="forfait-list">
+            <li>✓ Logo professionnel</li>
+            <li>✓ Palette de couleurs</li>
+            <li>✓ Polices officielles</li>
+            <li>✓ 3 propositions</li>
+          </ul>
+          <a href="contact.html" class="btn-forfait">Demander un devis</a>
+        </div>
+        <div class="forfait-card forfait-popular">
+          <div class="forfait-badge">Populaire</div>
+          <div class="forfait-label">Standard</div>
+          <ul class="forfait-list">
+            <li>✓ Tout du Starter</li>
+            <li>✓ Charte graphique PDF</li>
+            <li>✓ Carte de visite</li>
+            <li>✓ Signature email</li>
+            <li>✓ Templates réseaux sociaux</li>
+          </ul>
+          <a href="contact.html" class="btn-forfait">Demander un devis</a>
+        </div>
+        <div class="forfait-card">
+          <div class="forfait-label">Premium</div>
+          <ul class="forfait-list">
+            <li>✓ Tout du Standard</li>
+            <li>✓ Papier entête</li>
+            <li>✓ Supports marketing</li>
+            <li>✓ Guide d'utilisation</li>
+            <li>✓ Révisions illimitées</li>
+          </ul>
+          <a href="contact.html" class="btn-forfait">Demander un devis</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE 5 : MARKETING -->
+  <section class="service-section" id="service-marketing">
+    <div class="service-section-inner">
+      <div class="service-section-header">
+        <div class="service-section-icon">
+          <svg width="40" height="40" fill="none" viewBox="0 0 24 24" stroke="#FF3D6B" stroke-width="1.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941"/>
+          </svg>
+        </div>
+        <div>
+          <h2 class="service-section-title">Marketing Digital</h2>
+          <p class="service-section-desc">Stratégies de croissance, campagnes en ligne et actions marketing pour attirer et convertir vos prospects.</p>
+        </div>
+      </div>
+      <div class="forfaits-grid">
+        <div class="forfait-card">
+          <div class="forfait-label">Starter</div>
+          <ul class="forfait-list">
+            <li>✓ Stratégie digitale</li>
+            <li>✓ Email marketing</li>
+            <li>✓ 1 campagne/mois</li>
+            <li>✓ Rapport mensuel</li>
+          </ul>
+          <a href="contact.html" class="btn-forfait">Demander un devis</a>
+        </div>
+        <div class="forfait-card forfait-popular">
+          <div class="forfait-badge">Populaire</div>
+          <div class="forfait-label">Standard</div>
+          <ul class="forfait-list">
+            <li>✓ Tout du Starter</li>
+            <li>✓ Publicités Facebook/Instagram</li>
+            <li>✓ Google Ads</li>
+            <li>✓ Funnel de vente</li>
+            <li>✓ A/B Testing</li>
+          </ul>
+          <a href="contact.html" class="btn-forfait">Demander un devis</a>
+        </div>
+        <div class="forfait-card">
+          <div class="forfait-label">Premium</div>
+          <ul class="forfait-list">
+            <li>✓ Tout du Standard</li>
+            <li>✓ Campagnes illimitées</li>
+            <li>✓ Marketing automation</li>
+            <li>✓ CRM intégré</li>
+            <li>✓ Suivi ROI complet</li>
+          </ul>
+          <a href="contact.html" class="btn-forfait">Demander un devis</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE 6 : MAINTENANCE -->
+  <section class="service-section service-section-alt" id="service-maintenance">
+    <div class="service-section-inner">
+      <div class="service-section-header">
+        <div class="service-section-icon">
+          <svg width="40" height="40" fill="none" viewBox="0 0 24 24" stroke="#FF3D6B" stroke-width="1.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z"/>
+          </svg>
+        </div>
+        <div>
+          <h2 class="service-section-title">Maintenance & Support</h2>
+          <p class="service-section-desc">Nous restons à vos côtés après la livraison. Mises à jour, corrections et support technique réactif.</p>
+        </div>
+      </div>
+      <div class="forfaits-grid">
+        <div class="forfait-card">
+          <div class="forfait-label">Starter</div>
+          <ul class="forfait-list">
+            <li>✓ Mises à jour mensuelles</li>
+            <li>✓ Sauvegardes automatiques</li>
+            <li>✓ Support par email</li>
+            <li>✓ Rapport mensuel</li>
+          </ul>
+          <a href="contact.html" class="btn-forfait">Demander un devis</a>
+        </div>
+        <div class="forfait-card forfait-popular">
+          <div class="forfait-badge">Populaire</div>
+          <div class="forfait-label">Standard</div>
+          <ul class="forfait-list">
+            <li>✓ Tout du Starter</li>
+            <li>✓ Mises à jour hebdomadaires</li>
+            <li>✓ Support WhatsApp</li>
+            <li>✓ Corrections de bugs</li>
+            <li>✓ Monitoring 24h/24</li>
+          </ul>
+          <a href="contact.html" class="btn-forfait">Demander un devis</a>
+        </div>
+        <div class="forfait-card">
+          <div class="forfait-label">Premium</div>
+          <ul class="forfait-list">
+            <li>✓ Tout du Standard</li>
+            <li>✓ Support prioritaire</li>
+            <li>✓ Modifications illimitées</li>
+            <li>✓ Optimisation continue</li>
+            <li>✓ Réponse en moins d'1h</li>
+          </ul>
+          <a href="contact.html" class="btn-forfait">Demander un devis</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section id="cta">
+    <h2 class="cta-title">Prêt à faire briller votre marque ?</h2>
+    <p class="cta-sub">On est là pour ça. Le premier échange est gratuit.</p>
+    <div class="cta-btns">
+      <a href="mailto:savela.agency@gmail.com" class="btn-white">
+        <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="#FF3D6B" stroke-width="1.5">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"/>
+        </svg>
+        Écrire un email
+      </a>
+      <a href="https://wa.me/701096878" class="btn-white-outline" target="_blank">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+          <path d="M12 0C5.373 0 0 5.373 0 12c0 2.135.562 4.14 1.54 5.875L.057 23.25l5.565-1.457A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75a9.726 9.726 0 01-5.27-1.545l-.378-.224-3.924 1.028 1.05-3.818-.246-.393A9.712 9.712 0 012.25 12C2.25 6.615 6.615 2.25 12 2.25S21.75 6.615 21.75 12 17.385 21.75 12 21.75z"/>
+        </svg>
+        WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">SA<span>VELA</span></div>
+    <ul class="footer-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="apropos.html">À propos</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="footer-socials">
+      <a href="#" class="social-btn" title="Instagram">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+        </svg>
+      </a>
+      <a href="#" class="social-btn" title="TikTok">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+          <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.18 8.18 0 004.78 1.52V6.75a4.85 4.85 0 01-1.01-.06z"/>
+        </svg>
+      </a>
+    </div>
+    <div class="footer-copy">© 2025 SAVELA — Agence Digitale & Créative · Dakar, Sénégal</div>
+  </footer>
+  <script>
+  const burgerBtn = document.getElementById('burgerBtn');
+  const navLinks = document.getElementById('navLinks');
+  burgerBtn.addEventListener('click', () => {
+    navLinks.classList.toggle('open');
+  });
+</script>
+
+
+</body>
+</html>

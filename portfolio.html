@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAVELA — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+<nav>
+  <a class="nav-logo" href="index.html">
+    <div class="logo-circle-mini">
+      <svg width="24" height="20" viewBox="0 0 32 22" fill="none">
+        <path d="M2 14 Q16 0 30 14" stroke="white" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
+        <path d="M7 17 Q16 7 25 17" stroke="white" stroke-width="2.5" stroke-linecap="round" opacity="0.75"/>
+        <path d="M11.5 20 Q16 13 20.5 20" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+        <circle cx="16" cy="21.5" r="2" fill="white"/>
+      </svg>
+    </div>
+    <span class="logo-text-nav">SA<span>VELA</span></span>
+  </a>
+
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Accueil</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="apropos.html">À propos</a></li>
+    <li><a href="contact.html" class="mobile-cta">Prendre RDV</a></li>
+  </ul>
+
+  <a href="contact.html" class="nav-cta desktop-only">Prendre RDV</a>
+
+  <button class="burger" id="burgerBtn" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+  <!-- HERO PORTFOLIO -->
+  <section id="portfolio-hero">
+    <div class="blob1"></div>
+    <div class="blob2"></div>
+    <div class="services-hero-content">
+      <span class="section-tag">Nos réalisations</span>
+      <h1 class="hero-title">Notre <span class="gradient">Portfolio</span></h1>
+      <p class="hero-sub">Chaque projet est une fierté. Voici ce que nous avons accompli.</p>
+    </div>
+  </section>
+
+  <!-- PROJET 1 -->
+  <section id="projets">
+    <div class="projets-inner">
+
+      <div class="projet-card reveal">
+        <div class="projet-img">
+          <div class="projet-img-placeholder">
+            <svg width="48" height="48" fill="none" viewBox="0 0 24 24" stroke="#FF3D6B" stroke-width="1">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0H3"/>
+            </svg>
+          </div>
+        </div>
+        <div class="projet-info">
+          <div class="projet-tag">Site vitrine</div>
+          <h3 class="projet-title">Club Scientifique LEOLB</h3>
+          <p class="projet-desc">Site web complet pour le Club Scientifique du Lycée El Hadji Omar Lamine Badji de Ziguinchor. Présentation des activités, galerie photos et formulaire de contact.</p>
+          <div class="projet-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Netlify</span>
+          </div>
+          <a href="https://214254c5549a9769--clubscienceleolb.netlify.app" target="_blank" class="btn-primary" style="display:inline-block; margin-top:20px;">Voir le site →</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECTION BIENTÔT -->
+  <section id="bientot">
+    <div class="bientot-inner reveal">
+      <div class="bientot-icon">🚀</div>
+      <h2 class="bientot-title">D'autres projets arrivent bientôt</h2>
+      <p class="bientot-desc">SAVELA est une agence en plein lancement. Nous travaillons activement sur de nouveaux projets qui rejoindront bientôt ce portfolio.</p>
+      <p class="bientot-desc">Vous voulez figurer parmi nos premières réalisations ? Nous offrons des <strong style="color:var(--rose);">conditions avantageuses</strong> à nos premiers clients partenaires.</p>
+      <a href="contact.html" class="btn-primary" style="display:inline-block; margin-top:28px;">Devenir client fondateur →</a>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="cta">
+    <h2 class="cta-title">Prêt à faire briller votre marque ?</h2>
+    <p class="cta-sub">On est là pour ça. Le premier échange est gratuit.</p>
+    <div class="cta-btns">
+      <a href="mailto:savela.agency@gmail.com" class="btn-white">
+        <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="#FF3D6B" stroke-width="1.5">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"/>
+        </svg>
+        Écrire un email
+      </a>
+      <a href="https://wa.me/786685936" class="btn-white-outline" target="_blank">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+          <path d="M12 0C5.373 0 0 5.373 0 12c0 2.135.562 4.14 1.54 5.875L.057 23.25l5.565-1.457A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75a9.726 9.726 0 01-5.27-1.545l-.378-.224-3.924 1.028 1.05-3.818-.246-.393A9.712 9.712 0 012.25 12C2.25 6.615 6.615 2.25 12 2.25S21.75 6.615 21.75 12 17.385 21.75 12 21.75z"/>
+        </svg>
+        WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">SA<span>VELA</span></div>
+    <ul class="footer-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="apropos.html">À propos</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="footer-socials">
+      <a href="#" class="social-btn" title="Instagram">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1
